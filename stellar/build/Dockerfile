@@ -1,7 +1,7 @@
 # Base image, pinned by dated tag and index digest. The dated tag is retained
 # on Docker Hub, and the digest makes the pin immutable. Bump both together
 # following SUPPLY_CHAIN.md; Dependabot proposes the update weekly.
-FROM debian:bookworm-20260918-slim@sha256:3783cc01769c7b2b1b83a5c5ad96c815348e28ed7da68e2e3687004faa906251
+FROM debian:bookworm-20261104-slim@sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc
 
 # Prevent timezone and other interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
